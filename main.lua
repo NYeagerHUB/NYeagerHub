@@ -133,7 +133,7 @@ getgenv().Key = "60d5a2f273f945b19848b1b6"
         },
         ["Lock Fruit"] = {},
         ["Webhook"] = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             ["WebhookUrl"] = "https://discord.com/api/webhooks/1471143274239492264/4jOuSm_CBClvgylXOvAA6kVsIKULloq6fZLwhHbnskN4vqXeHQkhq-YP0WQ4FmRVBE34",
         }
     }
@@ -151,7 +151,7 @@ getgenv().Key = "60d5a2f273f945b19848b1b6"
 getgenv().Setting = {
     ["Delay Hop"] = 5,
     ["Webhook"] = {
-        ["url"] = "https://discord.com/api/webhooks/1471143274239492264/4jOuSm_CBClvgylXOvAA6kVsIKULloq6fZLwhHbnskN4vqXeHQkhq-YP0WQ4FmRVBE34",
+        ["url"] = "",
         ["Webhook Target Fruit"] = true,
         ["Webhook Store Fruit"] = {
             ["Rarity"] = {
@@ -212,4 +212,5 @@ Tabs.Main1:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
 	 
   end
+
 })
