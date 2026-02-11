@@ -28,7 +28,7 @@ local Window = Fluent:CreateWindow({
     TabWidth = 157,
     Size = UDim2.fromOffset(450,300),
     Acrylic = true,
-    Theme = "dark",
+    Theme = "Dark",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
@@ -138,52 +138,8 @@ getgenv().Key = "60d5a2f273f945b19848b1b6"
         }
     }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
-task.delay(6,function()
     end
 })
-    
-    Tabs.Main0:AddButton({
-    Title="BananaCatHub Find Fruit",
-    Description="",
-    Callback=function()
-      repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "60d5a2f273f945b19848b1b6"
-getgenv().Setting = {
-    ["Delay Hop"] = 5,
-    ["Webhook"] = {
-        ["url"] = "",
-        ["Webhook Target Fruit"] = true,
-        ["Webhook Store Fruit"] = {
-            ["Rarity"] = {
-                ["Mythical"] = true,
-                ["Legendary"] = true, 
-                ["Rare"] = false,
-                ["Uncommon"] = false,
-                ["Common"] = false,
-            },
-            ["Enabled"] = true, 
-        },
-        ["Webhook When Attack Factory"] = true,
-        ["Webhook When Attack Raid Castle"] = true,
-        ["Ping Discord"] = {
-            ["Enabled"] = false, 
-            ["Id Discord/Everyone"] = ""
-        },
-        ["Enabled"] = false,
-    },
-    ["Auto Random Fruit"] = true,
-    ["Use Portal Teleport"] = false,
-    ["Attacking"] = {
-        ["Weapon"] = "Melee", -- Sword,Melee,Blox Fruit
-        ["Raid Castle"] = true,
-        ["Factory"] = true,
-    }
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/HopFruit.lua"))()
-
-  end
-})
-
 Tabs.Main0:AddButton({
     Title="BananaCatHub KaitunLeviathan",
     Description="",
@@ -214,3 +170,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
   end
 
 })
+
